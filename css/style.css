@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.home{
+	background-color: #ebeef1;
+	height: 100vh;
+}
+.top{
+	text-align: center;
+	padding-top: 50px;
+}
+.box1{
+	display: inline-block;
+	display: flex;
+	height: 70px;
+	background: #fff;
+	border: 100px;
+	margin: 10px 400px;
+	border-radius: 30px;
+	transition: .5s;
+
+}
+.box1:hover{
+	padding-left: 15px;
+	transition: .5s;
+}
+.img{
+
+}
+.img img{
+	height: 70px;
+	width: 70px;
+	border-radius: 70px;
+	padding: 5px;
+	transition: .5s;
+
+}
+.img img:hover{
+		transform: scale(1.2);
+	transition: .3s;
+}
+.text{
+	text-align: center;
+	width: 100%;
+}
+.text h5{
+	text-align: center;
+	align-items: center;
+	line-height: 70px;
+}
+
+.img{
+
+}
+.img4 img{
+	height: 70px;
+	width: 70px;
+	border-radius: 30px;
+	padding: 5px;
+}
+.text{
+	text-align: center;
+	width: 100%;
+}
+.text h5{
+	text-align: center;
+	align-items: center;
+	line-height: 70px;
+}
+
+.icon{
+	text-align: center;
+}
+.icon ul{}
+.icon ul li{ 
+	list-style: none;
+	display: inline-block;
+	padding-top: 40px;
+ }
+.icon ul li a{
+	text-decoration: none;
+	color:  #009DAE;
+}
+.icon ul li a i{
+	font-size: 30px;
+	padding: 5px;
+	transition: .5s;
+}
+.icon ul li a i:hover{
+	transform: scale(1.5);
+	transition: .5s;
+
+}
